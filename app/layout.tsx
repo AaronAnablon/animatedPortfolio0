@@ -4,12 +4,14 @@ import "./globals.css";
 import StarsCanvas from "@/components/main/StarBackground";
 import Navbar from "@/components/main/Navbar";
 import Footer from "@/components/main/Footer";
+import Favicon from "@/public/NavLogo.png"
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Space Portfolio",
+  title: "Aaron Portfolio",
   description: "This is my portfolio",
+  icons: [{ rel: 'icon', url: Favicon.src }],
 };
 
 export default function RootLayout({
